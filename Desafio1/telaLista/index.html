@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Controle de Estacionamento</title>
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <script src="./main.js"></script>
+    </head>
+    
+    <body>
+        <div class="container">
+            <form class="list-form">
+                <h2>Veículos Cadastrados</h2>
+                <table>
+                    <thead>
+                        <th>Placa do veículo</th>
+                        <th>Nome do Proprietário</th>
+                        <th>Número do apartamento </th>
+                        <th>Bloco do apartamento</th>
+                        <th>Modelo do veículo</th>
+                        <th>Cor do veículo</th>
+                        <th>Número da vaga de estacionamento</th>
+                        <th>Ação</th>
+                    </thead>
+                    <tbody id="tbody">
+                        <!-- Aqui serão inseridas as linhas da tabela dinamicamente -->
+                    </tbody>
+                </table>
+                <div class="button-group">
+                    <button type="button" onclick="veiculo.listaVeiculos()">Listar</button>
+                </div>
+            </form>
+        </div>
+
+    </body>
+</html>
+
